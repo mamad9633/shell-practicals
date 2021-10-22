@@ -1,0 +1,19 @@
+   1  mkdir unix
+   2  cd unix
+   3  touch foo.txt
+   4  cp foo.txt foo-copy.txt
+   5  mv foo-copy.txt foo2.txt
+   6  mkdir data
+   7  mv foo2.txt data
+   8  ls
+   9  cd data
+   10  ls
+   11  cd ..
+   12  mkdir new
+   13  pwd
+   14  mv /home/user/unix/data/foo2.txt /home/user/unix/new
+   15  mv /home/user/unix/new/foo2.txt /home/user/unix
+   16  cp foo2.txt foo-old.txt
+   17  rm foo-old.txt
+   18 rmdir new
+   19  history >> exo1.txt

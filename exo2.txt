@@ -1,0 +1,6 @@
+a)display directories and files in the current directory
+ls with the option 'a' command to list files or directories including hidden files or directories.
+when i try ls alone in my history , i see also files that begins with a '.' considered as hidden file
+b)The option of ls to list all file in all subdirectories is 'R'
+c)the command to count lines, words and characters in a file is wc
+d)To display only the number of lines use the 'l' option 
